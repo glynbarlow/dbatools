@@ -7,10 +7,12 @@ The tools must be installed on each database server as the same user account as 
 
 There are a number of utilities split up into the type of task you wish to perform. The overview is
 
-dbinfo  - general database information (read only)
-dbuser  - view and update database user details
-dbtbs   - view and update database table space details
-dbrman  - automate RMAN tasks (chrosscheck, register, list, validate, restore Point in time)
-dbsql   - run a variety of reports about SQL code (sql report, explain plan, bind hist, sql tune)
-dbreport - allow user/project sql reports to be run in a controlled way
+|Script|Description|
+|------|-----------|
+| dbinfo  | General database information (read only)|
+| dbuser  | View and update database user details|
+| dbtbs   | View and update database table space details|
+| dbrman  | Automate RMAN tasks (chrosscheck, register, list, validate, restore Point in time)|
+| dbsql   | Run a variety of reports about SQL code (sql report, explain plan, bind hist, sql tune)|
+| dbreport | Allow user/project provided sql reports to be run in a controlled way|
 
